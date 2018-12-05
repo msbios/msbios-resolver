@@ -41,7 +41,7 @@ abstract class AbstractResolverManager implements ResolverManagerInterface
      * @param array ...$arguments
      * @return mixed
      */
-    abstract public function resolve(array ...$arguments);
+    abstract public function resolve(...$arguments);
 
     /**
      * @inheritdoc

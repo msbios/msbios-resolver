@@ -12,8 +12,8 @@ namespace MSBios\Resolver;
 interface ResolverInterface
 {
     /**
-     * @param array ...$arguments
+     * @param mixed ...$arguments
      * @return mixed
      */
-    public function resolve(array ...$arguments);
+    public function resolve(...$arguments);
 }
