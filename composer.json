@@ -1,7 +1,7 @@
 {
   "name": "msbios/resolver",
   "description": "MSBios Resolver",
-  "license": "GPL",
+  "license": "MIT",
   "keywords": [
     "php"
   ],
