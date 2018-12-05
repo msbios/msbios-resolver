@@ -15,5 +15,5 @@ interface ResolverInterface
      * @param array ...$arguments
      * @return mixed
      */
-    public function resolve(...$arguments);
+    public function resolve(array ...$arguments);
 }

@@ -41,12 +41,14 @@ abstract class AbstractResolverManager implements ResolverManagerInterface
      * @param array ...$arguments
      * @return mixed
      */
-    abstract public function resolve(...$arguments);
+    abstract public function resolve(array ...$arguments);
 
     /**
+     * @inheritdoc
+     *
      * @param ResolverInterface $resolver
      * @param int $priority
-     * @return $this
+     * @return $this|mixed
      */
     public function attach(ResolverInterface $resolver, $priority = 1)
     {
